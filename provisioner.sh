@@ -1,6 +1,9 @@
 sudo apt install -y build-essential libsqlite3-dev libcrypto++-dev libboost-all-dev libssl-dev git python-setuptools
 sudo apt install -y python-dev python-pygraphviz python-kiwi python-pygoocanvas python-gnome2 python-rsvg ipython
 sudo apt install -y pkg-config
+sudo apt install -y lxde lightdm
+sudo apt-get install -y network-manager
+sudo systemctl enable lightdm.service
 mkdir ndnSIM
 cd ndnSIM
 git clone https://github.com/named-data-ndnSIM/ns-3-dev.git ns-3
